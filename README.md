@@ -4,7 +4,7 @@
 This brief demo shows how Sentinel policy can enforce organizational standards and security rules when building infrastructure with Terraform Enterprise.
 
 Slide content: Use Slides #38 - 40 of the Terraform Enterprise tech deck from the sales portal:
-https://docs.google.com/presentation/d/1crMVSd4dXkrrCd1dv2M-lJ-l4yKCTWbN7ssfjGPqn5U/edit#slide=id.g48a3a9199a_9_18326
+[Terraform Tech Deck](https://docs.google.com/presentation/d/1crMVSd4dXkrrCd1dv2M-lJ-l4yKCTWbN7ssfjGPqn5U/edit#slide=id.g48a3a9199a_9_18326)
 
 ## The Challenge
 Organizations want the speed and flexibility of cloud, but struggle to enforce good security practices and prevent overprovisioning.
@@ -15,10 +15,7 @@ Building in the cloud is appealing because it's fast and easy. If you are not ca
 ## What are the HashiCorp differentiators?
 There is no other tool on the market that can do what Sentinel does today. Users would have to write their own tool from scratch to compare with the feature set offered by Sentinel. Sentinel operates on the premise that "an ounce of prevention is worth a pound of cure." because it prevents users from building non-compliant infrastructure _before_ it is actually created. Other tools on the market scan scan your cloud account for vulnerabilities, but only Sentinel can prevent the bad behavior before it happens.
 
-## Show the use case
-Here's a live demo showing how Sentinel works in practice. 
-
-## Setup
+## Setup & Demo
 1. Have a Terraform Enterprise account. If you don't have an account yet you can sign up for one here:  
 https://app.terraform.io/account/new
 1. If you already have a TFE demo that stands up cloud infrastructure, you can use your sentinel policy with that. If not you're welcome to use one of these Terraform demos instead:  
